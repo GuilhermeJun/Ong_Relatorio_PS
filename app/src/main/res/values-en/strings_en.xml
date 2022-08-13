@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tittle_app">Earth, Water Planet</string>
+    <string name="button_consultar">Consult</string>
+    <string name="button_integrantes">Members</string>
+    <string name="tittle_detalhes">Record Details</string>
+    <string name="tittle_local">Local:</string>
+    <string name="tittle_ph">ph:</string>
+    <string name="tittle_cor">Color:</string>
+    <string name="tittle_odor">Smell:</string>
+    <string name="tittle_coliformes">Total Coliforms:</string>
+    <string name="tittle_ecoli">eColi:</string>
+    <string name="tittle_data">Date:</string>
+    <string name="tittle_temp_min">Minimum Temperature:</string>
+    <string name="tittle_temp_max">Maximum Temperature:</string>
+</resources>

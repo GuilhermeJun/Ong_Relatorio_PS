@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ResultDetalhesActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle_detalhes"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_local"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvResultLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_ph"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultPh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_cor"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultCor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_odor"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultOdor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_coliformes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultColiformesTotais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_ecoli"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultEColi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_data"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_temp_min"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultTempMin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle_temp_max"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_Tittle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvResultTempMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_result"
+            />
+</LinearLayout>

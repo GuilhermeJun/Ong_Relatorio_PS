@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">ong_relatorio</string>
+    <string name="tittle_app">Terra, Planeta Água</string>
+    <string name="button_consultar">Consultar</string>
+    <string name="button_integrantes">Integrantes</string>
+    <string name="tittle_detalhes">Detalhes do relatório</string>
+    <string name="tittle_local">Local:</string>
+    <string name="tittle_ph">ph:</string>
+    <string name="tittle_cor">Cor:</string>
+    <string name="tittle_odor">Odor:</string>
+    <string name="tittle_coliformes">Coliformes Totais:</string>
+    <string name="tittle_ecoli">eColi:</string>
+    <string name="tittle_data">Data:</string>
+    <string name="tittle_temp_min">Temperatura mínima:</string>
+    <string name="tittle_temp_max">Temperatura máxima:</string>
+</resources>
